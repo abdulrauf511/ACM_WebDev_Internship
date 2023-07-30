@@ -1,0 +1,15 @@
+var myBoolean = true;
+var myString = "hello world";
+var firstNumber = 20;
+var secondNumber = 40;
+secondNumber = 80;
+var myArray = [];
+myArray.push(myBoolean);
+myArray.push(myString);
+console.log(myArray);
+var myObject = {};
+myObject.firstProperty = myArray;
+myObject.sumProperty = firstNumber + secondNumber;
+console.log(myObject);
+console.log(myObject.sumProperty);
+console.log(myObject.firstProperty[1]);
